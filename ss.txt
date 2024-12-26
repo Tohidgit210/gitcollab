@@ -5,4 +5,14 @@ int a=10,b=20,c;
 printf("A=%d B=%d",a,b);
 c=a+b;
 printf("RESULT=%d",c);
+
+}
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("enter A and B");
+scanf("%d%d",&a,&b);
+c=a+b;
+printf("RESULT=%d",c);
 }
